@@ -38,7 +38,7 @@ const current = document.getElementsByTagName('different groups');
 console.log(current);
 
 // get the section element with class="current"
-const present = document.getElementsByTagName('Section 2');
+const present = document.getElementsByClassName('Section 2');
 console.log(present);
 
 //Get the h2 node from the section before the 'current' section
@@ -50,8 +50,9 @@ const elements = document.getElementsByClassName('h2 class');
 console.log(elements);
 
 //Get all the sections that contain an H2 (using a single statement);
-const h2 = document.querySelector(#h2);
+const h2 = document.querySelectorAll('h2');
 console.log(h2);
+
 
 
 
