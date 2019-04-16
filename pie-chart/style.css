@@ -1,0 +1,41 @@
+/*Yellow*/
+
+#rightup{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position:absolute;
+    left: 158px;
+    top: 8px;
+    border-radius: 0 200px 0 0;
+}
+/*Green*/
+
+#rightdown{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    left: 158px;
+    border-radius: 0 0 200px 0;
+}
+
+/*Red*/
+
+#leftup{
+height: 150px;
+    width: 150px;
+    background-color: red;
+    left: 8px;
+    border-radius: 200px 0 0 0;
+}
+/*Blue*/
+
+#leftdown{
+height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 0 0 0 200px;
+}
+  
+

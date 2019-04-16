@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "my first app",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sozo7/classAssignments.git"
+  },
+  "keywords": [
+    "class",
+    "work"
+  ],
+  "author": "PJ Bess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sozo7/classAssignments/issues"
+  },
+  "homepage": "https://github.com/Sozo7/classAssignments#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
