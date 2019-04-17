@@ -1,4 +1,4 @@
-// It should 
+/*// It should 
 var toDos = [item 1, item 2, item 3, item 4];
 
 
@@ -22,4 +22,15 @@ function changeTodo(position, newValue){
 function deleteTodo(position){
     toDos.splice(position, 1);
     displayTodos();
+}
+*/
+
+window.onload = function () {
+    var form = document.getElementById('form');
+    var input = document.getElementById('input');
+    var button = document.getElementById('button');
+    var list = document.getElementById('list');
+    var id = 1;
+
+    button.addEventListener('click', addTodoItem);
 }

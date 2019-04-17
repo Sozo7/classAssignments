@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
-
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
 </head>
+
 <body>
+    <div class="container">
+        <h1 class="text-center display-2"> TodoList</h1>
+        <p class="lead text-center">Keep it simple. No frills todo application.</p>
+        <div class="row>" <form class="col-8 max-auto">
+            <div class="input-group">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-<link rel="stylesheet" href="main.js">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email"><span><button type="submit" class="btn btn-success">Submit</button></span>
+            </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul class="col-8 max-auto">
+                <li> this is a todo list item <input type="checkbox" aria-label="Checkbox for following text input">
+                </li>
+                <li> this is a todo list item <input type="checkbox" aria-label="Checkbox for following text input">
+                </li>
+                <li> this is a todo list item <input type="checkbox" aria-label="Checkbox for following text input">
+                </li>
+                <li> this is a todo list item <input type="checkbox" aria-label="Checkbox for following text input">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        src = "TodoList-pjb.js"
+    </script>
 </body>
+
 </html>
