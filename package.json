@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Sozo7/classAssignments#readme",
   "dependencies": {
     "js-yaml": "^3.13.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }
